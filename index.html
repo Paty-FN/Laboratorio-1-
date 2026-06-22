@@ -1,0 +1,240 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MayArtes | Arte y Personalización para Eventos</title>
+
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+
+<header>
+
+    <div class="logo">
+        <h1 class="logo-titulo">MayArtes</h1>
+        <p>Arte y creatividad para cada ocasión</p>
+    </div>
+
+    <nav aria-label="Menú principal">
+        <a href="#inicio">Inicio</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#galeria">Galería</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <button id="temaBtn">🌙 Modo Oscuro</button>
+
+    <div class="accesibilidad">
+        <button id="aumentarTexto">A+</button>
+        <button id="disminuirTexto">A-</button>
+    </div>
+
+</header>
+
+<main>
+
+<section id="inicio" class="hero">
+
+    <h2>
+        Transformamos tus
+        <span>ideas en arte</span>
+    </h2>
+
+    <p>
+        Piñatas personalizadas, murales, flores eternas,
+        cuadros decorativos, camisas sublimadas,
+        jarras sublimadas y arreglos para eventos.
+    </p>
+
+    <a href="#contacto" class="btn">
+        Solicitar Cotización
+    </a>
+
+</section>
+
+<section class="estadisticas">
+
+    <h2 class="oculto">Estadísticas</h2>
+
+    <article>
+        <div class="icono">🎉</div>
+        <h3>+100</h3>
+        <p>Piñatas realizadas</p>
+    </article>
+
+    <article>
+        <div class="icono">😊</div>
+        <h3>+80</h3>
+        <p>Clientes satisfechos</p>
+    </article>
+
+    <article>
+        <div class="icono">🎁</div>
+        <h3>+50</h3>
+        <p>Eventos decorados</p>
+    </article>
+
+</section>
+
+<section id="servicios">
+
+    <h2>Nuestros Servicios</h2>
+
+    <div class="servicios-grid">
+
+        <article class="card">
+            <h3>🎉 Piñatas Personalizadas</h3>
+            <p>Diseños únicos para cumpleaños y celebraciones.</p>
+        </article>
+
+        <article class="card">
+            <h3>🎨 Murales Artísticos</h3>
+            <p>Decoración creativa para hogares y negocios.</p>
+        </article>
+
+        <article class="card">
+            <h3>🌹 Flores Eternas</h3>
+            <p>Detalles especiales que perduran en el tiempo.</p>
+        </article>
+
+        <article class="card">
+            <h3>🖼️ Cuadros Decorativos</h3>
+            <p>Diseños personalizados para cualquier espacio.</p>
+        </article>
+
+        <article class="card">
+            <h3>👕 Camisas Sublimadas</h3>
+            <p>Personalización de prendas con diseños exclusivos.</p>
+        </article>
+
+        <article class="card">
+            <h3>☕ Jarras Sublimadas</h3>
+            <p>Regalos originales para cualquier ocasión.</p>
+        </article>
+
+    </div>
+
+</section>
+
+<section id="galeria">
+
+    <h2>Galería de Trabajos</h2>
+
+    <div class="galeria-grid">
+
+        <img src="img/img1.jpeg" alt="Trabajo MayArtes 1">
+        <img src="img/img2.jpeg" alt="Trabajo MayArtes 2">
+        <img src="img/img3.jpeg" alt="Trabajo MayArtes 3">
+        <img src="img/img4.jpeg" alt="Trabajo MayArtes 4">
+        <img src="img/img5.jpeg" alt="Trabajo MayArtes 5">
+        <img src="img/img1.jpeg" alt="Trabajo MayArtes 6">
+
+    </div>
+
+</section>
+
+<section id="nosotros">
+
+    <h2>Sobre Nosotros</h2>
+
+    <p>
+        MayArtes es un emprendimiento costarricense dedicado a la elaboración
+        de piñatas personalizadas, murales artísticos, flores eternas,
+        sublimación de artículos y decoración para eventos especiales.
+    </p>
+
+</section>
+
+<section id="testimonios">
+
+    <h2>Lo que dicen nuestros clientes</h2>
+
+    <div class="servicios-grid">
+
+        <article class="card">
+            <p>⭐⭐⭐⭐⭐</p>
+            <p>"La piñata quedó increíble."</p>
+            <h3>- María González</h3>
+        </article>
+
+        <article class="card">
+            <p>⭐⭐⭐⭐⭐</p>
+            <p>"Excelente calidad y atención."</p>
+            <h3>- José Ramírez</h3>
+        </article>
+
+        <article class="card">
+            <p>⭐⭐⭐⭐⭐</p>
+            <p>"Los arreglos fueron hermosos."</p>
+            <h3>- Ana Rodríguez</h3>
+        </article>
+
+    </div>
+
+</section>
+
+<section id="contacto">
+
+    <h2>Contáctanos</h2>
+
+    <a href="https://wa.me/50670406273"
+       target="_blank"
+       class="btn-whatsapp">
+       💬 Contactar por WhatsApp
+    </a>
+
+    <form action="https://formsubmit.co/fenixtapioe160@gmail.com" method="POST">
+
+        <input type="hidden" name="_captcha" value="false">
+
+        <label for="nombre">Nombre</label>
+        <input type="text" name="Nombre" id="nombre" required>
+
+        <label for="correo">Correo Electrónico</label>
+        <input type="email" name="Correo" id="correo" required>
+
+        <label for="mensaje">Mensaje</label>
+        <textarea name="Mensaje" id="mensaje" rows="5" required></textarea>
+
+        <button type="submit">
+            Enviar
+        </button>
+
+    </form>
+
+</section>
+
+</main>
+
+<footer>
+
+    <p>© 2026 MayArtes - Todos los derechos reservados</p>
+
+    <p>
+        📱 WhatsApp:
+        <a href="https://wa.me/50670406273" target="_blank">
+            7040-6273
+        </a>
+    </p>
+
+    <p>
+        📧 Correo:
+        <a href="mailto:fenixtapioe160@gmail.com">
+            fenixtapioe160@gmail.com
+        </a>
+    </p>
+
+    <p>📍 Las Delicias, Aguas Zarcas, Costa Rica</p>
+
+    <p>Facebook | Instagram | TikTok</p>
+
+</footer>
+
+<script src="JS/script.js"></script>
+
+</body>
+</html>
+
