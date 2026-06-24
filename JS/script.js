@@ -15,7 +15,7 @@ temaBtn.addEventListener("click", () => {
     }
 
 });
-
+  
 let tamañoFuente = 100;
 
 document.getElementById("aumentarTexto").addEventListener("click", () => {
